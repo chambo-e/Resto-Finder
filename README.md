@@ -16,8 +16,7 @@ How to Use ?
 git clone https://github.com/8102/Resto-Finder.git
 cd Resto-Finder
 
-# Create a list of all the restaurant
-echo -e "KFC\nFrango\nFufu" > liste
+Read the freakin' code.
 
 # Magic !
 ./resto
