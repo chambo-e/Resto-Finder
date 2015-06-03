@@ -1,0 +1,7 @@
+#! /usr/bin/ruby
+
+r = []
+
+File.foreach('liste') {|x| r << x.delete!("\n") }
+
+puts "#{r[Random.rand(r.length).to_i]} !!!"
